@@ -1,0 +1,81 @@
+What is HTML?
+
+it means hypertext markup language that is used to design the web pages, it contain set of elements and attribute to design page component.
+
+what is hypertext?
+if we write any text inside <> (tag)
+
+1)  single line closing or simple HTML tag:-
+     <     />
+     <br> <br /> <hr>  <input type="button"  value="click"  />  
+
+2)  multiline closing or complex Html tag
+
+    <>
+
+    </>
+
+    <div></div>
+    <p> </p>
+    <textarea></textarea>
+
+
+what is markup?
+
+all html elements are predefine under HTML markup library that is already present under web browser.
+means we can not create HTML elements manually.
+
+
+Which is the latest version of PHP?
+
+HTML 5.0
+
+It provide document pattern to HTML file based on HTML standard tag and dynamic tag.
+
+document will be described by <!DOCTYPE> as a starting tag of HTML file that will provide the instructon to browser to HTML 5 compatibility.
+
+
+Basic Structure of HTML5
+
+<!DOCTYPE>
+<html>
+<head>
+    <meta language section />
+    <title></title>
+    <meta intial width  />
+    <meta description  />
+    <meta keyword  />
+    <fabicon  />
+    <script></script>
+    <style></style> 
+</head>
+<body>
+     <div contaner>
+        <header>
+
+        </header>
+       <section>
+
+       </section>
+
+       <footer>
+
+       </footer>
+
+     </div>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+   
