@@ -1,0 +1,56 @@
+*
+{
+    margin: 0px;
+}
+#container
+{
+  margin: 0px;
+}
+#headerfirst
+{
+   height: 50px;
+   background-color: rgb(44, 44, 103);
+}
+#headersecond
+{
+    height: 100px;
+    background-color: rgb(62, 62, 169);
+}
+ul li
+{
+    display:inline-block;
+    margin-left: 10px;;
+}
+ul li a
+{
+    color:white;
+}
+section
+{
+    background-color: cadetblue;
+    width:100%;
+    height: 400px;
+}
+.part
+{
+   float: left;
+   width: 30%;
+   margin-left: 20px;
+   border: 1px solid red;
+   height: 400px;
+  
+}
+footer
+{
+    background-color: rgb(44, 44, 103);
+    height: 200px;
+}
+.footerpart
+{
+    float: left;
+    width: 23%;
+    margin-left: 14px;
+    border: 1px solid red;
+    height: 200px;
+   
+}
