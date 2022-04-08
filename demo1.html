@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+     #container
+     {
+         width:1000px; 
+         background-color:blue;
+         height: 600px;
+     }
+
+     .part
+     {
+         width:450px;
+         height: 600px;
+         float:left;
+         margin-left: 20px;
+         border: 1px solid red;
+     }
+     @media (max-width: 800px) {
+        #container
+         {
+         width:700px;
+         height: 500px;
+         margin-left: 10px;
+         margin-right: 10px;
+         background-color:green;
+        }
+
+       .part
+        {
+         width:300px;
+         height: 500px;
+         float:left;
+         border: 1px solid red;
+        }
+        h1
+        {
+             font-size:16px;
+        }
+     } 
+     @media (max-width: 480px) {
+        #container
+         {
+         width:480px;
+         height: 500px;
+         margin-left: 10px;
+         margin-right: 10px;
+         background-color:brown;
+        }
+
+       .part
+        {
+         width:200px;
+         height: 500px;
+         float:left;
+         border: 1px solid red;
+        }
+        h1
+        {
+             font-size:12px;
+        }
+     } 
+    
+    </style>
+</head>
+<body>
+    <div id="container">
+      <div class="part">
+        <h1>Welcome in Part1 Section</h1>
+      </div>
+      <div class="part">
+
+        <h1>Welcome in Part2 Section</h1>
+      </div>
+    </div>
+</body>
+</html>

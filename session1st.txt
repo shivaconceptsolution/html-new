@@ -66,8 +66,54 @@ Basic Structure of HTML5
 </body>
 </html>
 
+...................
+
+CSS:-  It is used to provide properties to html elements.
+CSS contain three different types of block.
+
+1 predefine html elements block
+
+div
+{
+
+}
+
+p
+{
+
+}
+h1
+{
+
+}
 
 
+note:- this block will be automatically apply on html elments
+
+2) userdefine block:-
+
+we will create custom block to define set of propties that will be called 
+manually under HTML elements.
+Type of block
+2.1
+#block
+2.2
+.block
+
+#blockname
+{
+   
+}
+.blockname
+{
+   
+}
+#block will be called by ID selector and .block will be called by class selector
+<div id="blockname>
+</div>
+<div class="blockname">
+
+</div>
 
 
 
